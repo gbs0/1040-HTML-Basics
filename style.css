@@ -1,0 +1,78 @@
+/* TODO: design your profile with CSS */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300;400;500&display=swap');
+
+#avatar {
+    border-radius: 50%;
+    height: 240px;
+}
+
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 52px;
+}
+body {
+    background-color: #F4F4F4;
+    font-family: 'Open Sans', sans-serif;
+    /* font-size: 30px; */
+    /* text-align: center; */
+}
+
+a {
+    text-decoration: none;
+}
+
+#links > li > a > i {
+    font-size: 54px;
+    color: #212121;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul > li {
+    display: inline;
+    margin-left: 60px;
+}
+
+img:hover, i:hover {
+   transform: scale(2);
+   transition: .3s;
+}
+
+div {
+    /* margin: 20px 0px 20px 0px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: white;                         /* White background */
+    padding: 30px;                             /* Internal space */
+    border-radius: 4px;                        /* Small radius */
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+}
+
+.container {
+    margin: 0 auto;      /* Set automatic margins on right/left */
+    background-color: #F4F4F4;
+}
+
+.profile {
+    text-align: center;
+}
+
+.about {
+    font-weight: bolder;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+/* #ui h2 {
+    color: red !important;
+} */
+
+h1, h2 {
+    color: gray;
+}
